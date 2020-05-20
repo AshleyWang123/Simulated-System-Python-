@@ -1,7 +1,7 @@
 #coding:utf-8
 import sqlite3
 import re
-import Queue
+import queue
 
 # import data from database.
 def Getdata(q):
@@ -178,10 +178,10 @@ I,A,D=[],[],[] #Task list: Accepted: I(ID),A(Arrival),D(Duration);
 IDdis,Adis,Ddis=[],[],[] #Discarded: IDdis(IDDiscared),A(ArrivalDiscared).
 Arrivals=[]
 Tasks=[]
-processor1=Queue.Queue()
-processor2=Queue.Queue()
-processor3=Queue.Queue()
-q=Queue.Queue()
+processor1=queue.Queue()
+processor2=queue.Queue()
+processor3=queue.Queue()
+q=queue.Queue()
 
 # import data from database; system initialised
 Getdata(q)
