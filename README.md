@@ -4,7 +4,6 @@
 
 **run Data.py firstly, then running System.py**
 
-
 #Simulation Data
 
 The data required to run the simulation represents different tasks that need
