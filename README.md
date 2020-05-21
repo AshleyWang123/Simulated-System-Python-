@@ -4,6 +4,9 @@
 
 **run Data.py firstly, then running System.py**
 
+**RESULT**
+![image](Screenshot.png)
+
 #Simulation Data
 
 The data required to run the simulation represents different tasks that need
